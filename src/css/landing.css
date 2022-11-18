@@ -1,0 +1,27 @@
+body{
+    /* background-image: url('../../public/img/q.jpg') ;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgba(0, 0, 0, 0.503);
+    justify-content: center;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.grid_item{
+    margin-top: 50vh;
+
+}
+input{
+
+    background-image: url('../../public/img/search.png');
+    background-position:right ; 
+    background-repeat: no-repeat;
+    border-color:crimson;
+    border-radius: 100px;
+    min-width: 25rem;
+    min-height: 2rem;
+}
